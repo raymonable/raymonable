@@ -1,3 +1,1 @@
-EVERYTHING I PUT ON HERE WAS A LIE
-
-I ABSOLUTELY LOVE GITHUB
+i don't use github very often anymore
