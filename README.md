@@ -1,5 +1,7 @@
 # Hi! I'm Raymond.
 
+> :warning: please note that i am working on several private repositories i'm NOT a loser:bangbang:
+
 I am a self-taught programmer who is either working on obtaining a CompTIA certification or has already obtained it (I won't remember to update this when this changes).<br>
 Most of the programming languages (and formats) I know & are comfortable with:
 
