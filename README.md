@@ -1,8 +1,6 @@
 # Hi! I'm Raymond.
 
-> :warning: The information here is likely to be out of date.
-
-I am a self-taught programmer who is either working on obtaining a CompTIA certification or has already obtained it (I won't remember to update this when this changes).<br>
+I am a self-taught programmer and by technicality a "certified IT technician"—**I got my CompTIA 1101/1102 A+ recently! :confetti_ball:**<br>
 Most of the programming languages (and formats) I know & are comfortable with:
 
 <img height=60 src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"> <img height=60 src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg"> <img height=60 src="https://upload.vectorlogo.zone/logos/javascript/images/239ec8a4-163e-4792-83b6-3f6d96911757.svg"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" height=60> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" height=60> <img height=60 src="https://github.com/devicons/devicon/blob/master/icons/lua/lua-original.svg"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" height=60> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wasm/wasm-original.svg" height=60> <img height=60 src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/puppeteer/puppeteer-original.svg" height=60>
