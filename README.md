@@ -24,6 +24,6 @@ I prefer working on webdev, but I'm branching out and doing backend and non-web 
 
 <hr>
 
-## My Music Chart
+## Top 16 Weekly Albums
 
-<!-- lastfm -->
+<img src="chart.svg">
