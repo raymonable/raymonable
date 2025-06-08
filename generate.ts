@@ -59,7 +59,7 @@ async function getApi(method: string, parameters?: Record<string, string>) : Pro
         }
     });
     if (response.status != 200)
-        console.log(`Unexpected response: HTTP error ${response.status} URL: ${url.toString()}`);
+        console.log(`Unexpected response: HTTP error ${response.status} path: ${url.pathname}`);
     return (await response.json()) as ApiResponse;
 }
 
