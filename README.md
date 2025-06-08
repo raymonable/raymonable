@@ -26,4 +26,4 @@ I prefer working on webdev, but I'm branching out and doing backend and non-web 
 
 ## My Music Chart
 
-<-- lastfm -->
+<!-- lastfm -->
