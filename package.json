@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.15.30"
+  },
+  "dependencies": {
+    "skia-canvas": "^2.0.2"
+  },
+  "trustedDependencies": [
+    "skia-canvas"
+  ]
+}
