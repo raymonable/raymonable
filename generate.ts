@@ -31,7 +31,7 @@ FontLibrary.use("Font", [
 
 const baseURL = `https://ws.audioscrobbler.com/2.0`;
 
-const count = 16;
+const count = 18;
 const individualSize = 128;
 const maximumSize = 768;
 
