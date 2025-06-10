@@ -24,6 +24,6 @@ I prefer working on webdev, but I'm branching out and doing backend and non-web 
 
 <hr>
 
-## Top 16 Weekly Albums
+## Top Weekly Albums
 
 <img src="chart.svg">
