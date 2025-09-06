@@ -10,11 +10,3 @@ I also have been learning Blender for 3 years as a secondary hobby. Maybe if thi
 
 [AquaDX](https://github.com/MewoLab/AquaDX): An arcade server replicator.<br>
 [AquaNet2](https://github.com/MewoLab/AquaNet2): A (private) arcade server frontend.
-
-<hr>
-
-## Top Weekly Albums
-
-(I've recently switched to Apple Music, some of my scrobbles are missing <img style="height: 1.5em" alt="image" src="https://github.com/user-attachments/assets/8de2fbdf-a69e-4b87-9370-cad8343b9fe5" />)
-
-<img src="chart.svg">
