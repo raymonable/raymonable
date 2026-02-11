@@ -75,6 +75,8 @@ async function generateChart() {
     let response = await getApi("user.getweeklyalbumchart");
     if (!response.weeklyalbumchart) return;
 
+    console.log(`Received ${response.weeklyalbumchart.album.length} albums`)
+
     let canvasWidth = maximumSize;
     let canvasHeight = Math.ceil(count / (maximumSize / individualSize)) * individualSize;
 
@@ -142,4 +144,5 @@ async function generateChart() {
     await generateChart();
     exit(0);
 })();
+
 
