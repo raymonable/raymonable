@@ -86,48 +86,50 @@ async function generateChart() {
     ctx.lineWidth = 1;
     ctx.font = "12px Font";
 
-    for (let i = 0; i < count; i += 1) {
+    for (let i = 0; i < count; i ++) {
         let album = response.weeklyalbumchart.album[i];
-        let imageURL = await getAlbumCover(album.artist["#text"], album.name);
+        if (album) {
+            let imageURL = await getAlbumCover(album.artist["#text"], album.name);
 
-        if (album.name.length >= 12) {
-            album.name = album.name.substring(0, 12) + "...";
-        }
+            // TODO: measure text
+            if (album.name.length >= 12) {
+                album.name = album.name.substring(0, 12) + "...";
+            }
+    
+            let x = i % Math.floor(maximumSize / individualSize);
+            let y = Math.floor(i / Math.floor(maximumSize / individualSize));
+    
+            let imageSize = individualSize - 32;
+            let image = new Image();
 
-        let x = i % Math.floor(maximumSize / individualSize);
-        let y = Math.floor(i / Math.floor(maximumSize / individualSize));
-
-        let imageSize = individualSize - 32;
-        let image = new Image();
-
-        ctx.fillRect(
-            (x * individualSize) + ((individualSize - imageSize) / 2), 
-            (y * individualSize), 
-            imageSize, 
-            imageSize
-        );
-
-        if (imageURL) {
-            image.src = imageURL;
-            await image.decode();
-
-            ctx.drawImage(
-                image,
+            // fallback
+            ctx.fillRect(
                 (x * individualSize) + ((individualSize - imageSize) / 2), 
                 (y * individualSize), 
-                imageSize, 
-                imageSize
+                imageSize, imageSize
             );
+    
+            if (imageURL) {
+                image.src = imageURL;
+                await image.decode();
+    
+                ctx.drawImage(
+                    image,
+                    (x * individualSize) + ((individualSize - imageSize) / 2), 
+                    (y * individualSize), 
+                    imageSize, imageSize
+                );
+            }
+    
+            let measurements = ctx.measureText(album.name);
+            ctx.strokeText(album.name, ((x * individualSize) - (measurements.width / 2)) + (individualSize / 2), ((y + 1) * individualSize) - 16);
+            ctx.fillText(album.name, ((x * individualSize) - (measurements.width / 2)) + (individualSize / 2), ((y + 1) * individualSize) - 16);
+    
+            ctx.strokeText(album["@attr"].rank, (x * individualSize), (y * individualSize) + 12);
+            ctx.fillText(album["@attr"].rank, (x * individualSize), (y * individualSize) + 12);
+    
+            console.log(`Completed ${i + 1}`);
         }
-
-        let measurements = ctx.measureText(album.name);
-        ctx.strokeText(album.name, ((x * individualSize) - (measurements.width / 2)) + (individualSize / 2), ((y + 1) * individualSize) - 16);
-        ctx.fillText(album.name, ((x * individualSize) - (measurements.width / 2)) + (individualSize / 2), ((y + 1) * individualSize) - 16);
-
-        ctx.strokeText(album["@attr"].rank, (x * individualSize), (y * individualSize) + 12);
-        ctx.fillText(album["@attr"].rank, (x * individualSize), (y * individualSize) + 12);
-
-        console.log(`Completed ${i + 1}`);
     };
 
     console.log("Generated chart")
@@ -140,3 +142,4 @@ async function generateChart() {
     await generateChart();
     exit(0);
 })();
+
