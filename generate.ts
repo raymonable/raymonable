@@ -135,7 +135,8 @@ async function generateChart() {
     };
 
     if (response.weeklyalbumchart.album.length <= 0) {
-        canvas = new Canvas(1, 1); // this is so hacky and terrible i'm so sorry omg
+        canvas.width = 1;
+        canvas.height = 1;
     }
 
     console.log("Generated chart")
@@ -148,6 +149,7 @@ async function generateChart() {
     await generateChart();
     exit(0);
 })();
+
 
 
 
