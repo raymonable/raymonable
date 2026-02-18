@@ -14,3 +14,7 @@ My profile picture is of Hung from Arknights. [鈴菜はり](https://x.com/sz_vv
 
 [AquaDX](https://github.com/MewoLab/AquaDX): An arcade server.<br>
 [AquaNet2](https://github.com/MewoLab/AquaNet2): A (private) arcade server frontend.
+
+### Music
+
+![chart](./chart.svg)
