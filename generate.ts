@@ -26,7 +26,7 @@ interface ApiResponse {
 };
 
 FontLibrary.use("Font", [
-    "fonts/SawarabiGothic-Regular.ttf"
+    "fonts/RodinHimawariPro-DB.otf"
 ]);
 
 const baseURL = `https://ws.audioscrobbler.com/2.0`;
@@ -83,9 +83,9 @@ async function generateChart() {
     let canvas = new Canvas(canvasWidth, canvasHeight);
     let ctx = canvas.getContext("2d");
 
-    ctx.fillStyle = "#000";
-    ctx.strokeStyle = "#fff";
-    ctx.lineWidth = 1;
+    ctx.fillStyle = "#0a0a0b";
+    ctx.strokeStyle = "#fafafa";
+    ctx.lineWidth = 3;
     ctx.font = "12px Font";
 
     for (let i = 0; i < count; i ++) {
@@ -149,6 +149,7 @@ async function generateChart() {
     await generateChart();
     exit(0);
 })();
+
 
 
 
