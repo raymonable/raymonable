@@ -26,7 +26,7 @@ interface ApiResponse {
 };
 
 FontLibrary.use("Font", [
-    "fonts/RodinHimawariPro-DB.otf"
+    "fonts/FOT-RodinHimawariPro-DB.otf"
 ]);
 
 const baseURL = `https://ws.audioscrobbler.com/2.0`;
@@ -149,6 +149,7 @@ async function generateChart() {
     await generateChart();
     exit(0);
 })();
+
 
 
 
