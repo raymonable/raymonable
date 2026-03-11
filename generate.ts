@@ -85,7 +85,7 @@ async function generateChart() {
 
     ctx.fillStyle = "#0a0a0b";
     ctx.strokeStyle = "#fafafa";
-    ctx.lineWidth = 3;
+    ctx.lineWidth = 2;
     ctx.font = "12px Font";
 
     for (let i = 0; i < count; i ++) {
@@ -149,6 +149,7 @@ async function generateChart() {
     await generateChart();
     exit(0);
 })();
+
 
 
 
