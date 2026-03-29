@@ -2,11 +2,13 @@
 
 I am a self-taught programmer and a senior in high school (12th grade). I do webdev work in languages / systems such as TypeScript and Svelte. I also like to work in real-world-applicable languages such as C++, primarily taking interest in the WebAssembly scene. I also enjoy graphics programming projects but I often get stuck in the initial phases.
 
-<img src="https://media1.tenor.com/m/z7hOYfK25yQAAAAd/lucky-star-konata.gif" alt="Konata Izumi">
+<img src="https://media1.tenor.com/m/z7hOYfK25yQAAAAd/lucky-star-konata.gif" alt="Konata Izumi from Lucky Star">
 
-I also have been learning Blender for around 3 years as a secondary hobby. Maybe if this webdev thing doesn't work out, I can do 3D character modelling for Zenless Zone Zero or something, Hahaha ha ha <img style="height: 1.5em" alt="image" src="https://github.com/user-attachments/assets/f5e6d238-c853-438e-a9d5-aabc22b01d8b" />
+I also have been learning Blender for around 4 years as a secondary hobby (focusing on character modeling). Maybe if AI takes the entire programming space over, I can work for Hoyoverse or something, I guess...
 
-My profile picture is of Hung from Arknights. [鈴菜はり](https://x.com/sz_vvv) is the artist (it can be removed upon their request).
+<img src="https://media1.tenor.com/m/u8QiC1pivV4AAAAC/onimai-oniichan-wa-oshimai.gif" alt="Asahi Oka from Oniichan wa Oshimai">
+
+Profile picture is of Red Savarin from Solatorobo. [かなとふぐ](https://www.pixiv.net/en/artworks/116972716) is the artist (it can be removed upon their request).
 
 <hr>
 
